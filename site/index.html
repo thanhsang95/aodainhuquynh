@@ -11,7 +11,11 @@
 <meta property="og:site_name" content="Áo Dài Như Quỳnh">
 <meta property="og:title" content="Áo Dài Như Quỳnh – Chuyện một tà áo">
 <meta property="og:description" content="Áo dài may đo, mỗi chiếc chỉ một người mặc. Đặt lịch đo tại Ka Đô, Lâm Đồng.">
+<meta property="og:image" content="https://thanhsang95.github.io/aodainhuquynh/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" rel="stylesheet">
@@ -19,15 +23,40 @@
 <script src="./main.js" defer></script>
 </head>
 <body id="top">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="logo-mark" viewBox="0 0 48 64">
+<path d="M5 62.5V24a19 19 0 0 1 38 0v38.5" fill="none" stroke="#1E1A16" stroke-width="1.6"/>
+<path d="M1 62.5h46" stroke="#E3B23C" stroke-width="1.6"/>
+<svg x="8" y="9" width="32" height="53.5" viewBox="96 44 264 862">
+<path d="M186 344 C204 500 234 640 260 760 C270 800 282 836 298 862 L346 832 C322 770 294 640 276 540 C262 460 246 394 230 340 Z" fill="#7E1715"/>
+<path d="M168 332 C152 520 132 720 118 904 L194 904 L200 520 L206 904 L282 904 C268 720 248 520 232 332 Z" fill="#FBF8F3" stroke="#1E1A16" stroke-opacity=".5" stroke-width="6"/>
+<path d="M186 80 C168 86 146 98 136 112 C130 122 128 136 127 156 C122 240 116 334 112 412 Q122 420 133 417 C136 332 142 246 154 176 C150 204 150 238 157 266 C162 290 166 310 166 330 C164 352 160 372 159 394 C158 540 156 700 154 842 Q200 852 246 842 C244 700 242 540 241 394 C240 372 236 352 234 330 C234 310 238 290 243 266 C250 238 250 204 246 176 C258 246 264 332 267 417 Q278 420 288 412 C284 334 278 240 273 156 C272 136 270 122 264 112 C254 98 232 86 214 80 Q200 86 186 80 Z" fill="#A3201E"/>
+<path d="M187 52 Q200 47 213 52 L216 82 Q200 88 184 82 Z" fill="#A3201E"/>
+<g fill="none" stroke="#E3B23C" stroke-linecap="round">
+<path d="M210 84 Q230 108 246 176" stroke-width="12"/>
+<path d="M214 822 C200 760 222 700 204 640" stroke-width="7"/>
+<path d="M208 712 C222 704 230 694 234 686" stroke-width="6"/>
+<path d="M210 772 C198 766 192 758 190 748" stroke-width="6"/>
+</g>
+<g fill="#F2D27A">
+<g transform="translate(204 628) scale(2.2)"><circle cy="-6" r="5"/><circle cx="5.7" cy="-1.9" r="5"/><circle cx="3.5" cy="4.9" r="5"/><circle cx="-3.5" cy="4.9" r="5"/><circle cx="-5.7" cy="-1.9" r="5"/><circle r="2.4" fill="#FFF6D8"/></g>
+<g transform="translate(236 680) scale(1.6)"><circle cy="-6" r="5"/><circle cx="5.7" cy="-1.9" r="5"/><circle cx="3.5" cy="4.9" r="5"/><circle cx="-3.5" cy="4.9" r="5"/><circle cx="-5.7" cy="-1.9" r="5"/><circle r="2.4" fill="#FFF6D8"/></g>
+<g transform="translate(188 742) scale(1.5)"><circle cy="-6" r="5"/><circle cx="5.7" cy="-1.9" r="5"/><circle cx="3.5" cy="4.9" r="5"/><circle cx="-3.5" cy="4.9" r="5"/><circle cx="-5.7" cy="-1.9" r="5"/><circle r="2.4" fill="#FFF6D8"/></g>
+</g>
+</svg>
+</symbol>
+</svg>
 
 <!-- THE STORY: one áo dài, sewn as you scroll -->
 <section class="story" aria-label="Quy trình may một chiếc áo dài">
 <div class="stage">
 
 <header class="topbar">
-<a class="brand" href="#top">Áo Dài Như Quỳnh</a>
+<a class="brand" href="#top" aria-label="Áo Dài Như Quỳnh">
+<svg class="brand-mark" viewBox="0 0 48 64" aria-hidden="true"><use href="#logo-mark"></use></svg>
+<span class="brand-text" aria-hidden="true"><span class="brand-kicker">Áo dài</span><span class="brand-name">Như Quỳnh</span></span>
+</a>
 <div class="counter" aria-hidden="true">
-<span class="cnt cnt0 st">Bắt đầu</span>
 <span class="cnt cnt1 st">01 / 05</span>
 <span class="cnt cnt2 st">02 / 05</span>
 <span class="cnt cnt3 st">03 / 05</span>
@@ -296,7 +325,10 @@
 </section>
 
 <footer class="footer">
-<span class="footer-name">Áo Dài Như Quỳnh</span>
+<div class="footer-logo" role="img" aria-label="Áo Dài Như Quỳnh">
+<svg class="footer-mark" viewBox="0 0 48 64" aria-hidden="true"><use href="#logo-mark"></use></svg>
+<span class="brand-kicker">Áo dài</span><span class="footer-name">Như Quỳnh</span>
+</div>
 <span class="footer-tag">Áo dài may đo thủ công · Lâm Đồng</span>
 <span class="footer-copy">© 2026 Áo Dài Như Quỳnh</span>
 </footer>
